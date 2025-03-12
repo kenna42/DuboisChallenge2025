@@ -90,28 +90,4 @@ columnTemplate.fillOpacity = 0.8;
 // Deaktiviere den Export-Button
 chart.exporting.menu = null;
 
-/*var hoverState = columnTemplate.states.create("hover")
-hoverState.properties.fillOpacity = 1; 
 
-
-chart.scrollbarX = new am4core.Scrollbar();
-chart.scrollbarX.align = "center"
-chart.scrollbarX.width = am4core.percent(70);
-chart.scrollbarX.position = "bottom";
-chart.scrollbarX.margin(50, 0, 0, 0);
-chart.scrollbarX.parent = chart.bottomAxesContainer;
-chart.isMeasured = false; 
-
-var cursor = new am4plugins_timeline.CurveCursor();
-chart.cursor = cursor;
-cursor.xAxis = valueAxis;
-cursor.yAxis = categoryAxis;
-cursor.lineY.disabled = false;
-cursor.lineX.strokeDasharray = "1,4";
-cursor.lineX.strokeOpacity = 1; 
-
-var label = chart.plotContainer.createChild(am4core.Label);
-label.fontSize = 15;
-label.x = am4core.percent(80);
-label.y = am4core.percent(80);
-label.horizontalCenter = "right"; */
