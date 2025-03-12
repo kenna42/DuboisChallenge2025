@@ -87,7 +87,10 @@ columnTemplate.adapter.add("fill", function (fill, target) {
 columnTemplate.strokeOpacity = 0;
 columnTemplate.fillOpacity = 0.8;
 
-var hoverState = columnTemplate.states.create("hover")
+// Deaktiviere den Export-Button
+chart.exporting.menu = null;
+
+/*var hoverState = columnTemplate.states.create("hover")
 hoverState.properties.fillOpacity = 1; 
 
 
@@ -111,4 +114,4 @@ var label = chart.plotContainer.createChild(am4core.Label);
 label.fontSize = 15;
 label.x = am4core.percent(80);
 label.y = am4core.percent(80);
-label.horizontalCenter = "right"; 
+label.horizontalCenter = "right"; */
