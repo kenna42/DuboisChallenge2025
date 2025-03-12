@@ -21,7 +21,7 @@ chart.inversed = true;
 chart.endAngle = 270;
 // chart.yAxisInnerRadius = 0;
 chart.yAxisRadius = am4core.percent(100);
-chart.padding(100,0,0,0);
+chart.padding(100,0,50,0);
 chart.exporting.menu = new am4core.ExportMenu();
 
 
